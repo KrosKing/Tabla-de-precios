@@ -1,0 +1,114 @@
+img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+h2{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 600;
+    color: rebeccapurple;
+
+}
+p{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 100;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background:white;
+    color: cadetblue;
+    border: 1px solid orange;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 10px #888;
+    width: 24%;
+    box-sizing: border-box;
+}
+.Precio{
+    font-size: 50px;
+    color: red;
+}
+.btn-precio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: blue;
+}
+@media(max-width:1100px){
+    .columna{
+        width: 45%;
+        margin-bottom: 25px;
+    }
+}
+.enlace{
+    display: inline-block;
+    background-color:yellow ;
+    color: black;
+    padding: 15px 95px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.enlace:hover{
+    background-color: blue;
+}
+.enlace:active{
+    background-color: orange;
+}
+nav{
+    background-color: #33FFF3;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid green;
+    border-radius: 20px;
+    box-shadow: -12px 12px 10px #888;
+    margin: 5px;
+}
+.nav-button{
+    display: none;
+    background-color:yellow ;
+    color: black;
+    padding: 15px 95px;
+    text-decoration: none;
+}
+@media (max-width:600px) {
+    .columna{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .madre{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .enlace{
+        margin: 18px 8px;
+    }
+    .nav-button{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+  
+}
+        
