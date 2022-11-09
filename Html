@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TablaSilva</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Tabla de precio silva.css">
+    
+</head>
+<body>
+    <header> <img src="stop.png" alt=""></header>
+    <nav class="madre">
+        <button class="nav-button" onclick="accion()" >Menu</button>
+        <a href="#" class="enlace desaparece">Inicio</a>
+        <a href="#" class="enlace desaparece">Servicio</a>
+        <a href="#" class="enlace desaparece">Contactenos</a>
+        <a href="#" class="enlace desaparece">Historia</a>
+    </nav>
+    <section class="container flex text-center">
+        <div class="columna">
+            <h2>PLAN UNO</h2>
+            <p class="Precio">$500</p>
+            <p>Lorem ipsum dolor sit amet consectetur,</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda eligendi cum iste. Nobis similique voluptate impedit in rem ipsa nihil a quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda </p>
+            <hr>
+            <p><img src="xbox.jpg"><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet</p>
+            <hr>
+            <a href="https://www.youtube.com/watch?v=-cZ7ndjhhps" class="btn-precio">COMPRAR</a>
+        </div>
+        <div class="columna">
+            <h2>PLAN DOS</h2>
+            <p class="Precio">$650</p>
+            <p>Lorem ipsum dolor sit amet consectetur,</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda eligendi cum iste. Nobis similique voluptate impedit in rem ipsa nihil a quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda </p>
+            <hr>
+            <p><img src="pc.jpg"><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet</p>
+            <hr>
+            <a href="https://www.youtube.com/watch?v=-cZ7ndjhhps"class="btn-precio">COMPRAR</a>
+
+        </div>
+        <div class="columna">
+            <h2>PLAN TRES</h2>
+            <p class="Precio">$800</p>
+            <p>Lorem ipsum dolor sit amet consectetur,</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda eligendi cum iste. Nobis similique voluptate impedit in rem ipsa nihil a quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda </p>
+            <hr>
+            <p><img src="play.jpg"><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet</p>
+            <hr>
+            <a href="https://www.youtube.com/watch?v=-cZ7ndjhhps"class="btn-precio">COMPRAR</a>
+        </div>
+        <div class="columna">
+            <h2>PLAN CUATRO</h2>
+            <p class="Precio">$900</p>
+            <p>Lorem ipsum dolor sit amet consectetur,</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda eligendi cum iste. Nobis similique voluptate impedit in rem ipsa nihil a quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit sed rerum laborum unde consectetur! Enim dolorem assumenda </p>
+            <hr>
+            <p><img src="descargar.jfif"><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet</p>
+            <hr>
+            <a href="https://www.youtube.com/watch?v=-cZ7ndjhhps"class="btn-precio">COMPRAR</a>
+            
+        </div>
+    </section>
+    <footer class="text-center">
+        <p> Fundacion escuela tecnologica de neiva</p>
+        <p>Neiva-Huila</p>
+        <p>2022</p>
+    </footer>
+    <script>
+        function accion() {
+            console.log("esta funcionando");
+            var ancla = document.getElementsByClassName("enlace");
+            for(var i=0; i <ancla.length; i++){
+                ancla[i].classList.toggle("desaparece");
+            }
+        }
+    </script>
+</body>
+</html>
